@@ -12,7 +12,7 @@ public class Timeline_So_Behaviour : PlayableBehaviour
     Transform transform;
     bool played;
 
-    AudioSource audioSource;
+    SoControlador audioSource;
 
     public override void ProcessFrame(Playable playable, FrameData info, object playerData)
     {
@@ -27,7 +27,7 @@ public class Timeline_So_Behaviour : PlayableBehaviour
         if (!played)
         {
             played = true;
-            audioSource = so.Play_Referencia(transform);
+            audioSource = so.Play(transform);
         }
     }
 
@@ -41,6 +41,6 @@ public class Timeline_So_Behaviour : PlayableBehaviour
 
         played = false;
 
-        so.Stop(audioSource);
+        audioSource.Apagar();
     }
 }
