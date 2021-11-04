@@ -1,0 +1,28 @@
+Funcionament Cinemachine
+
+Brain (L'ha de portar la camara del joc, perque funcionin les cameres virutals)
+
+VIRTUAL CAMERA
+	"No es una camara, sino un conjunt de regles".
+	"A traves del CinemachineBrain, decideix quina Camera virtual segueix".
+
+BlendListCamera
+	"Serveix per fer transicions amb temps".
+	"El numero de 'transicions' ha d'estar predefinit, es pot canviar els valors d'aquestes i afegir camares"
+	AfegirCamara, TreureCamara, CanviarCamara i CanviarTransicio.
+
+ClearShot
+	"Busca el millor punt de vista entra totes les camares afegides"
+
+FreeLook
+	"Camara controlada pel jugador, hi ha diferents tipus de funcionament"
+
+
+EXTENSIONS
+
+
+UTILS
+	"Scripts que no son VirtualCamera"
+
+CollisionImpulseSource
+	"Crea un inpuls/shake a la camara un ImpulseListener a través de les colisions d'objectes"

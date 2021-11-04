@@ -1,0 +1,6 @@
+Buscar diferents casos en el que aixo pot ser util:
+
+-Fer prova de cinematica simple (toques trigger, s'atura el personatge, es mou la camara, espera i torna)
+-Canviar la camara de gameplay amb un input (Ex: apuntar)
+-Canviar la camara amb un trigger.
+-

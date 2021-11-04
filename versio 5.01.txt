@@ -1,0 +1,5 @@
+Falta:
+Camara de gestio rollo joc de gestió d'algo. 
+	-que puguis desplaçar la camara amb el boto central/esquerra, 
+	-(opcional) girarla clicant un altre botó.
+	-(opcional) que es desplaci també quan apropis el cursor a l'extrem de la pantalla.
